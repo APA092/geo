@@ -37,7 +37,14 @@
             },
         );
         
-        }
+        },
+         methods: { 
+             position(lat, lng){
+                 this.map.addObject(new H.map.Marker({lat: lat, lng: lng }));
+                 
+             }
+             
+         }
     }
 </script>
 <style scoped></style>

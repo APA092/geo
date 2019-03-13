@@ -61,6 +61,9 @@
           }, (error)  =>  {
             this.loading = false;
           })
+        },
+        position: function(){
+          this.$refs.map.postion('24', '10');
         }
       },
   }
