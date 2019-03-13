@@ -1,3 +1,3 @@
 backend: bin/rails server
 frontend: bin/webpack-dev-server
-sudo service postgresql96 start
+bin/service postgresql96 start
